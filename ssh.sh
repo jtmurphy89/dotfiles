@@ -7,3 +7,5 @@ if [[ $? == 0 && -n $private_keys ]]; then
     echo "Please run this command by hand:"
     echo "ssh-add $private_keys"
   fi
+fi
+
